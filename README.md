@@ -15,3 +15,12 @@ Focused on extracting named entities (e.g., characters, locations, events) menti
 This approach applies Latent Dirichlet Allocation (LDA) to identify underlying topics in book plots, representing each book's plot as a distribution over these topics.
 
 ## **Dependencies**
+The codes **plot_similarity_Tfidf** and **NER_similarity** have the following dependencies:
+- NumPy (np)
+- Pandas (pd)
+- SpaCy (spacy)
+- Regular Expressions (re)
+- CSV (csv)
+- TQDM (tqdm)
+- Matplotlib (matplotlib.pyplot)
+The code **LDA_based** has the following dependencies:
