@@ -12,7 +12,7 @@ This approach represents each book's plot numerically using TF-IDF and calculate
 - **Named Entities in Plots**:
 This approach is focused on extracting named entities (e.g., characters, locations, events) mentioned in the plots and using them to establish similarities between books.
 - **Topic Modeling using Latent Dirichlet Allocation (LDA)**:
-This approach applies Latent Dirichlet Allocation (LDA) to identify underlying topics in book plots, representing each book's plot as a distribution over these topics.
+This approach applies LDA to identify underlying topics in book plots, representing each book's plot as a distribution over these topics.
 
 ## **Dependencies**:
 ### The codes **plot_similarity_Tfidf** and **NER_similarity** have the following dependencies:
