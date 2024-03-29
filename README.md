@@ -10,7 +10,7 @@ We used the CMU Book Summary Dataset from Kaggle (https://www.kaggle.com/dataset
 - **Cosine Similarity of Plots**:
 This approach represents each book's plot numerically using TF-IDF and calculates cosine similarity between them to recommend books with similar themes or plots.
 - **Named Entities in Plots**:
-Focused on extracting named entities (e.g., characters, locations, events) mentioned in the plots and using them to establish similarities between books.
+This approach is focused on extracting named entities (e.g., characters, locations, events) mentioned in the plots and using them to establish similarities between books.
 - **Topic Modeling using Latent Dirichlet Allocation (LDA)**:
 This approach applies Latent Dirichlet Allocation (LDA) to identify underlying topics in book plots, representing each book's plot as a distribution over these topics.
 
@@ -18,9 +18,18 @@ This approach applies Latent Dirichlet Allocation (LDA) to identify underlying t
 ### The codes **plot_similarity_Tfidf** and **NER_similarity** have the following dependencies:
 - NumPy (np)
 - Pandas (pd)
-- SpaCy (spacy)
+- SpaCy 
 - Regular Expressions (re)
 - CSV (csv)
 - TQDM (tqdm)
 - Matplotlib (matplotlib.pyplot)
 ### The code **LDA_based** has the following dependencies:
+- NumPy (np)
+- Pandas (pd)
+- SpaCy
+- Regular Expressions (re)
+- CSV (csv)
+- TQDM (tqdm)
+- pyLDAvis
+- Gensim
+- Matplotlib
