@@ -23,6 +23,7 @@ This approach applies Latent Dirichlet Allocation (LDA) to identify underlying t
 - CSV (csv)
 - TQDM (tqdm)
 - Matplotlib (matplotlib.pyplot)
+- Sklearn
 ### The code **LDA_based** has the following dependencies:
 - NumPy (np)
 - Pandas (pd)
@@ -30,6 +31,7 @@ This approach applies Latent Dirichlet Allocation (LDA) to identify underlying t
 - Regular Expressions (re)
 - CSV (csv)
 - TQDM (tqdm)
+- Sklearn
 - pyLDAvis
 - Gensim
 - Matplotlib
