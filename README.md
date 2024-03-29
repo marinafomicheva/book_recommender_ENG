@@ -14,8 +14,8 @@ Focused on extracting named entities (e.g., characters, locations, events) menti
 - **Topic Modeling using Latent Dirichlet Allocation (LDA)**:
 This approach applies Latent Dirichlet Allocation (LDA) to identify underlying topics in book plots, representing each book's plot as a distribution over these topics.
 
-## **Dependencies**
-The codes **plot_similarity_Tfidf** and **NER_similarity** have the following dependencies:
+## **Dependencies**:
+### The codes **plot_similarity_Tfidf** and **NER_similarity** have the following dependencies:
 - NumPy (np)
 - Pandas (pd)
 - SpaCy (spacy)
@@ -23,4 +23,4 @@ The codes **plot_similarity_Tfidf** and **NER_similarity** have the following de
 - CSV (csv)
 - TQDM (tqdm)
 - Matplotlib (matplotlib.pyplot)
-The code **LDA_based** has the following dependencies:
+### The code **LDA_based** has the following dependencies:
